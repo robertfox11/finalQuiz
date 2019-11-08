@@ -5,6 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet">
     <link rel="stylesheet" type="text/css" href="assets/styles.css">
     <link rel="stylesheet" type="text/css" href="assets/reset.css">
     <title>FinalQuiz</title>
@@ -18,16 +19,20 @@
         </div>
     </div>
     <div class="container">
-        <div class="">
-            <input class="inputstar" type="text" placeholder="nickname">
-        </div>
-        <div class="">
-            <button class="startButton">Start</button>
-        </div>
+        <form class="" id="formSave">
+            <input class="inputstar" type="text" id="addNickName" placeholder="nickname">
+            <button class="saveNick" type="submit" value="Save">Save</button>
+            <div class="">
+                <a id="start" class="startButton" onclick="start()" href="Question.html">Start</a>
+            </div>
+
+        </form>
+
     </div>
 
     <footer>
     </footer>
+    <script src="js/start.js"></script>
 </body>
 
 </html>

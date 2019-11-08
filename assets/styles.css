@@ -1,6 +1,9 @@
 body {
-    background-image: url('../assets/img/rojo.jpg');
+    background-image: url('../assets/img/space.jpg');
 }
+
+
+/* container page */
 
 .d-flex {
     display: flex;
@@ -15,10 +18,11 @@ body {
     display: flex;
     flex-direction: column;
     margin: auto;
-    max-width: 500px;
-    width: 90%;
+    max-width: 80%;
+    width: 80%;
     text-align: center;
     background-color: rgba(221, 133, 32, 0);
+    margin-bottom: 160px;
 }
 
 .d-flex {
@@ -39,6 +43,9 @@ body {
     font-size: 56px;
 }
 
+
+/* button star */
+
 .startButton {
     background-color: rgb(221, 202, 32);
     border: none;
@@ -47,22 +54,143 @@ body {
     text-align: center;
     text-decoration: none;
     display: inline-block;
-    font-size: 16px;
+    font-size: 15px;
     margin: 4px 2px;
     cursor: pointer;
     border: 1px solid;
     border-radius: 5px;
-    width: 60%;
+    width: 30%;
 }
 
+
+/* design input */
+
 .inputstar {
-    max-width: 500px;
+    max-width: 250px;
     padding: 15px 32px;
     text-align: center;
     font-size: 15px;
     border-radius: 5px;
     display: inline-flex;
-    margin: auto;
-    width: 60%;
+    margin: 4px auto;
+    width: 30%;
     background-color: blanchedalmond;
+}
+
+
+/* savenick */
+
+.saveNick {
+    max-width: 250px;
+    padding: 15px 32px;
+    text-align: center;
+    font-size: 15px;
+    border-radius: 5px;
+    display: inline-flex;
+    margin: 4px auto;
+    width: 20%;
+    background-color: rgb(221, 202, 32);
+    cursor: pointer;
+    /* 
+    text-decoration: none;
+    margin: 4px auto;
+    
+    border: 1px solid;
+    border-radius: 5px;
+    width: 20%;
+    float: right; */
+}
+
+
+/* design form */
+
+.container_form {
+    background: #CCC;
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    max-width: 80%;
+    width: 80%;
+    text-align: center;
+    background-color: rgba(221, 133, 32, 0);
+    margin-bottom: 160px;
+}
+
+.quiz-form {
+    background: #CCC;
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    max-width: 90%;
+    width: 90%;
+    text-align: left;
+    background-color: rgba(221, 133, 32, 0);
+    position: relative;
+}
+
+.question {
+    font-size: 30px;
+    text-align: center;
+    color: rgb(194, 194, 53);
+}
+
+.questionText {
+    font-weight: bold;
+    font-size: 17px;
+    text-align: center;
+}
+
+.pregunta {
+    max-width: 100%;
+    width: 100%;
+}
+
+.radioAnswer {
+    padding: 5px 0px 6px 6px;
+    z-index: 10;
+    line-height: 1.5;
+}
+
+.radioAnsweroAnswer input {
+    position: relative;
+    z-index: 10;
+    cursor: pointer;
+}
+
+
+/* next para la respuestas */
+
+.PrevQuestion {
+    float: left;
+    background-color: rgb(221, 202, 32);
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    max-width: 100%;
+    width: 25%;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border: 1px solid;
+    border-radius: 5px;
+}
+
+.NextQuestion {
+    float: right;
+    background-color: #4CAF50;
+    color: white;
+    background-color: rgb(221, 202, 32);
+    text-align: center;
+    text-decoration: none;
+    max-width: 100%;
+    width: 25%;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border: 1px solid;
+    border-radius: 5px;
+}
+
+span {
+    font-family: cursive;
 }

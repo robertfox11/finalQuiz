@@ -1,4 +1,4 @@
-/* * div {
+* div {
     border: 1px solid red;
 }
 
@@ -17,7 +17,7 @@ h6 {
 
 input {
     border: 1px solid orange;
-} */
+}
 
 */ * {
     -webkit-font-smoothing: antialiased;
@@ -30,6 +30,7 @@ body {
     margin: 0px;
     padding: 0px;
     overflow-x: hidden;
+    font-family: "roboto";
 }
 
 html {
@@ -86,6 +87,10 @@ select {
     box-sizing: border-box;
     -webkit-appearance: none;
     -moz-appearance: none;
+}
+
+section {
+    background: rgb(125, 236, 236);
 }
 
 
