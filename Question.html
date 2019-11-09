@@ -12,20 +12,21 @@
 
 <body class="d-flex d-flex-column">
 
-    <div class="container flex-align-center ">
-        <div class="d-flex flex-column flex-align-center">
-        </div>
-    </div>
     <div class="container_form">
         <section class="" id="wizard-p-1 " role="tabpanel " aria-labelledby="wizard-h-1 " aria-hidden="false ">
             <div class="d-flex flex-column ">
                 <form action=" " method="post " class="quiz-form" id="quiz">
-                    <div class="pregunta">
-                        <h3 class="question"></h3>
-                        <div class="QuestionTex">
-                            <p class="questionText"></p>
-                        </div>
-                        <div class="radioAnswer">
+                    <div class="title">Quiz Final</div>
+                    <div class="questionTex">Hola</div>
+                    <label class="option"><input type="radio" name="option" value="a"><span id="opta"></span></label>
+                    <label class="option"><input type="radio" name="option" value="b"><span id="optb"></span></label>
+                    <label class="option"><input type="radio" name="option" value="c"><span id="optc"></span></label>
+                    <label class="option"><input type="radio" name="option" value="d"><span id="optd"></span></label>
+                    <button id="nextBtn" class="next_btn" onmouseover="loadNextQuestion()" href="">Next Question</button>
+                    <!-- <!-- <h3 class="question"></h3> -->
+                    <div id="result" class="container result" style="display:none">
+                    </div>
+                    <!-- <div class="radioAnswer">
                             <input type="RADIO" name="u_30584577" value="144685318" id="144685318ID" onclick="">
                             <span>Al principio del documento</span></br>
                             <input type="radio" value="b" name="48">
@@ -54,12 +55,8 @@
                             <span>En la sección</span></br>
                             <input type="radio" value="d" name="48">
                             <span>Al final del documento</span></br>
-                        </div>
-                        <div class="">
-                            <a id="start" class="PrevQuestion" onmouseover="start()" href="">Prev</a>
-                            <a id="start" class="NextQuestion" onmouseover="start()" href="">Next</a>
-                        </div>
-                    </div>
+                        </div> -->
+
 
                 </form>
             </div>
