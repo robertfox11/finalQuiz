@@ -11,19 +11,18 @@
 </head>
 
 <body class="d-flex d-flex-column">
+
     <div class="container_form" id="quizContainer">
-
         <div class="title">Quiz Final</div>
-        <div class="questionTex" id="question"></div>
-        <label class="option"><input type="radio"  name="option" value="1"><span id="opt1"></span></label>
-        <label class="option"><input type="radio"  name="option" value="2"><span id="opt2"></span></label>
-        <label class="option"><input type="radio"  name="option" value="3"><span id="opt3"></span></label>
-        <label class="option"><input type="radio"  name="option" value="4"><span id="opt4"></span></label>
+        <div class="questionTex"></div>
+        <label class="option"><input type="radio" name="option" value="a"><span id="opta"></span></label>
+        <label class="option"><input type="radio" name="option" value="b"><span id="optb"></span></label>
+        <label class="option"><input type="radio" name="option" value="c"><span id="optc"></span></label>
+        <label class="option"><input type="radio" name="option" value="d"><span id="optd"></span></label>
         <button id="nextBtn" class="next_btn" onclick="loadNextQuestion()">Next Question</button>
-    </div>
-    <!-- <!-- <h3 class="question"></h3> -->
+        <!-- <!-- <h3 class="question"></h3> -->
 
-    <!-- <div class="radioAnswer">
+        <!-- <div class="radioAnswer">
                             <input type="RADIO" name="u_30584577" value="144685318" id="144685318ID" onclick="">
                             <span>Al principio del documento</span></br>
                             <input type="radio" value="b" name="48">
@@ -37,7 +36,7 @@
                             <a id="start" class="PrevQuestion" onmouseover="start()" href="">Prev</a>
                             <a id="start" class="NextQuestion" onmouseover="start()" href="">Next</a>
                         </div>
-                    </div>
+                    </form>
                     < class="pregunta" style="display: none;">
                         <h3 class="question">Question 1</h3>
                         <div class="QuestionTex">
@@ -54,14 +53,14 @@
                             <span>Al final del documento</span></br>
                         </div> -->
 
+    </div>
     <div id="result" class="container_form result" style="display:none">
     </div>
 
     <footer>
     </footer>
-    <script src="js/json.js"></script>
     <script src="js/quiz.js"></script>
-
+    <script src="js/json.js"></script>
 </body>
 
 </html>
