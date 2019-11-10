@@ -35,7 +35,9 @@ function loadNextQuestion() {
     //SI seleccionando el valor de la respuestas y sumando puntos
     var answer = selectedOption.value;
     if (questions[currentQuestion].answer == answer) {
+        console.log(selectedOption)
         score += 10;
+        localStorage.setItem(score, score);
     }
     // Si la seleccion checked es falso avanzando al siguiente pregunta sin sumar puntos
     selectedOption.checked = false;
@@ -47,7 +49,7 @@ function loadNextQuestion() {
     if (currentQuestion == totQuestion) {
         quizContainer.style.display = 'none';
         resultCont.style.display = '';
-        resultCont.textContent = 'your Score:' + score;
+        resultCont.textContent = 'your Score:' + localStorage.getItem(score);
         return;
     }
     loadQuestion(currentQuestion);

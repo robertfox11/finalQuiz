@@ -13,15 +13,16 @@ var questions = [{
         "option3": '<link rel=stylesheet type=text/css href=style.css />',
         "option4": '<link rel=stylesheet type=text/css href=style.css>',
         "answer": "1"
+    },
+    {
+        "question": 'En HTML, para definir las partes activas o sensibles de un mapa de imagen se emplea',
+        "option1": '<part>',
+        "option2": '<area>',
+        "option3": '<field>',
+        "option4": ' Las anteriores respuestas no son correctas',
+        "answer": "2"
     }
-    // }, {
-    //     "question": '3. En HTML, para definir las partes activas o sensibles de un mapa de imagen se emplea',
-    //     "option1": '<part>',
-    //     "option2": '<area>',
-    //     "option3": '<field>',
-    //     "option4": ' Las anteriores respuestas no son correctas',
-    //     "answer": "2"
-    // }, {
+    //, {
     //     "question": '4. En HTML, para definir una línea horizontal de separación se emplea',
     //     "option1": '<pre>',
     //     "option2": '<xmp>',
