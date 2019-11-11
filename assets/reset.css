@@ -1,4 +1,4 @@
-* div {
+/* * div {
     border: 1px solid red;
 }
 
@@ -20,9 +20,9 @@ input {
     float: left;
 }
 
-*/ * {
+ * {
     -webkit-font-smoothing: antialiased;
-}
+} */
 
 html,
 body {
